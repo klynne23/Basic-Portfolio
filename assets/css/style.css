@@ -1,0 +1,117 @@
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* MAIN */
+main {
+    min-height: 100%;
+    margin-bottom: -70px;
+    background-color: #4aaaa5;
+}
+
+.container {
+    width: 960px;
+    margin: 0px auto;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+li.nav {
+    float: left;
+    text-align: center;
+    padding: 20px 10; 
+    font-size: 35px;
+    color: white;
+    background-color: #4aaaa5; 
+}
+
+nav li {
+    float: right;
+    padding: 20px 0;
+    
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: grey;
+}
+
+/* ABOUT */
+
+p {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+section#about {
+    padding: 10% 0;
+    background-image: url(../images/stardust.png);
+}
+
+#about.container {
+    padding: 0px 5px;   
+}
+
+#about.bg {
+    background-color: white;
+}
+
+section#about h1 {
+    color: #4aaaa5;
+    padding: 10px 0 10px 5px;
+    font-size: 25px;
+}
+
+img#headshot {
+    padding-right: 5%;
+    float: left;
+}
+
+/* PORTFOLIO */
+section#portfolio {
+    padding: 10% 0;
+    background-image: url(../images/stardust.png);
+}
+
+#portfolio.container {
+    padding: 0px 5px;
+}
+
+article {
+    float: left;
+    margin: 1%;
+    width: 40%;
+  }
+
+  section#portfolio h1 {
+    color: #4aaaa5;
+    padding: 10px 0 10px 5px;
+    font-size: 25px;
+  }
+
+/* FOOTER */
+footer .push {
+    height: 50px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #666666;
+    padding: 2%;
+    border-top: 8px solid #4aaaa5;
+}
